@@ -1,15 +1,38 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 20px;
-}
 html{
     width: 75%;
     margin: auto;
     
 }
 
-/* removing defult styles */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.sub-header{
+    display: flex;
+    justify-content: space-between;
+}
+.top-example{
+    max-width: 50%;
+    max-height: 50%;
+}
+.text{
+    width: 40%;
+}
+.text > p{
+    font-size: 25px;
+}
+.sign-up{
+    font-size: 30px;
+    padding:10px;
+    background-color: aqua;
+}
+
+
+
+/* removing defult styles do not change */
 h2{
     margin: 0px;
 }
