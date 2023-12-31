@@ -10,7 +10,8 @@ a:hover{
     text-decoration: underline;
     
 }
-/* sign up links*/
+
+/* sign up botton*/
 .sign-up:link{
     border: 1px solid rgba(176, 227, 242, 0.768); 
 }
@@ -22,9 +23,13 @@ a:hover{
     background-color: rgba(202, 233, 243, 0.906);
     color: rgb(24, 27, 210) ;
 }
-
-
-
+.sign-up{
+    font-size: 30px;
+    padding:10px;
+    height: 30px; 
+    align-self: center;
+    margin-right: 10px;
+}
 html{
     width: 75%;
     margin: auto;
@@ -37,8 +42,6 @@ body{
     flex-direction: column;
     margin:0;
 }
-
-
 .sub-header,.header{
     background-color: rgba(20, 19, 19, 0.312);
     padding: 20px;
@@ -52,11 +55,8 @@ body{
     border-bottom: 1px solid rgba(176, 227, 242, 0.466);    
 }
 .header-link{
-    margin-right: 10px;
-    
+    margin-right: 10px;   
 }
- 
-
 .sub-header{
     display: flex;
     justify-content: space-between;
@@ -74,17 +74,16 @@ body{
 }
 .info-photos{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;   
 }
 .photo-and-captions > img{
     width: 20vw;
-
 }
 .photo-and-captions > p{
     width: 17vw;
     font-size: 20px;
     margin:  5px 0px;
+   
 }
 .quote{
     font-size: 36px;
@@ -98,17 +97,10 @@ body{
     margin-top: 0px;
 }
 
-.sign-up{
-    font-size: 30px;
-    padding:10px;
-    height: 30px; 
-    align-self: center;
-    margin-right: 10px;
-}
+
 .sign-up-banner{
     display: flex;
-    justify-content: space-between;
-    
+    justify-content: space-between;  
 }
 .sign-up-banner,footer{
     background-color:  rgba(20, 19, 19, 0.312);
@@ -120,10 +112,6 @@ footer{
     align-self: flex-end;
     text-align: center;     
 }
-
-
-
-/* removing defult styles do not change */
 h2{
     margin: 0px;
 }

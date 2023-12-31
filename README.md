@@ -1,5 +1,5 @@
 # landing-page- 
-The difintive and best landing page for dark mode and dark mode resources
+The difintive and best landing page for dark mode and dark mode resources. 
 
 photos credits:
 eye-doctor by Pavel Danilyuk https://www.pexels.com/@pavel-danilyuk/
